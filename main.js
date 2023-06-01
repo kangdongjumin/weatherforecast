@@ -58,7 +58,7 @@ tabs.forEach(
 );
 
 const currentWeatherInform = async () => {
-    try {
+
   let url = new URL(`http://api.openweathermap.org/geo/1.0/direct?q=
     ${cityName}&limit=1&appid=d0688d56935d7270f2cea8c6ef5fecd2`);
   let response = await fetch(url);
@@ -80,9 +80,7 @@ const currentWeatherInform = async () => {
 
   searchResult();
   console.log(weatherData);
-} catch(error) {
-    errorRender()
-}
+
 };
 
 const sunRiseSet = (sunTimeUDT) => {
