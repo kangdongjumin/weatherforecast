@@ -1,0 +1,190 @@
+
+.container {
+    margin:10px, 10px;
+    padding:0 ;
+}
+
+.first-box {
+    margin-bottom: 20px;
+    border-bottom: double lightgray 3px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+    font-weight:bolder;
+    align-items: baseline;
+}
+
+.title-first {
+    font-size: 200%;
+    margin-right: 10px;
+}
+
+
+
+.city-box {
+    background-color: #EEF2F7;
+    padding: 3px 15px;
+    margin:0;
+    display: flex;
+    justify-content: baseline;
+    height: 50px;
+    align-items: center;
+}
+
+.city-mark {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.main-weather {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top:10px
+}
+
+.feels-like {
+    padding-left: 10px;
+}
+.other-inform {
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.other-inform-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-inform-detail img {
+    width: 18px;
+    height: 15px;
+    margin-right: 5px; 
+}
+
+.wind-inform {
+    border-left:2px solid lightgray;
+    border-right: 2px solid lightgray;
+}
+
+.wind-direction {
+    width: 8px;
+    height: 10px;
+    margin:0 5px;
+}
+
+
+.sun-inform {
+    display: flex;
+    justify-content: space-around;
+    margin-top:10px;
+    margin-bottom: 10px;
+
+}
+
+.sun-inform div {
+    display: flex;
+    justify-content: center;
+}
+
+.sun-inform div img {
+    width: 30px;
+    margin: 0 20px;
+}
+
+.hourly-weather {
+    padding : 0;
+    margin: 0;
+}
+
+.hourly-weather-bigbox {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.hourly-weather div div {
+    margin: 0;
+    padding:0;
+    
+}
+
+.hourly-weather div{
+    padding: 0;
+    
+}
+
+.weather-category {
+    min-width: 70px;
+    min-height: 250px;
+    border-right :2px lightgray solid;
+   
+
+}
+
+
+#hourly-weather-result {
+    display: flex;
+}
+
+.each-result-box {
+    border-right :2px lightgray solid;
+    min-width: 70px;
+    
+}
+
+
+
+.weather-box {
+    height: 66px;
+    
+}
+
+#date-box {
+    display: flex;
+    border-right: none;
+   
+
+}
+
+#date-box div {
+    min-width: 70px;
+    padding: 5px;
+    background-color: hsl(205, 52%, 94%);
+}
+
+
+
+.date-button {
+    display: flex;
+    margin-left: 70px;
+
+}
+
+.date-button button {
+    min-width: 70px;
+    margin-right: 2px;
+    border: none;
+    padding: 4px;
+}
+
+.date-button button.active {
+    background-color: hsl(205, 52%, 94%);
+}
+
+.error-box {
+    width: 100%;
+    background-color: lightcoral;
+    color:#EEF2F7;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
